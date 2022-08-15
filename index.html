@@ -45,7 +45,7 @@
             </section> 
     </header>
     <main>
-        <section class="testimonials">
+        <div class="testimonials">
             <div class="image1">
                 <img src="/img/bench.png" alt="bench" class="bench">
                 <p class="text">Рядом исторические
@@ -63,46 +63,54 @@
             </div> 
             <div class="image4"> 
                 <img src="/img/bicycle.png" alt="bicycle" class="bicycle">
-                <p class="text">6 км <br>
+                <p class="text">6 км 
                     велодорожек</p>
             </div>
-        </section>
-        <section class="second_part">
-            <h1>Наши квартиры</h1>
+        </div>
+        <div class="second_part">
+            <h1 class="title2">Наши квартиры</h1>
             <div class="grid_image">
-                <img src="/img/Rectangle (1).png" alt="loft1" class="loft1">
-                <p>Лофт — 3 этажа</p>
-                <img src="/img/Rectangle (2).png" alt="loft2" class="loft2">
-                <p>Лофт — 2 этажа</p>
-                <img src="/img/Rectangle (1).png" alt="loft3" class="loft3">
-                <p>Лофт — 3 этажа</p>
-                <img src="/img/Rectangle (2).png" alt="loft4" class="loft4">
-                <p>Лофт — 2 этажа</p>
+                    <div class="loft_name1 floor">
+                        Лофт — 3 этажа
+                    </div>
+                    <div class="loft_name2 floor">
+                        <span>Лофт — 2 этажа</span>
+                    </div>
+                    <div class="loft_name3 floor">
+                        <span>Лофт — 3 этажа</span>
+                    </div>
+                    <div class="loft_name4 floor">
+                        <span></span>Лофт — 2 этажа
+                    </div>
             </div>
-        </section>
-        <section class="last_part">
+        </div>
+        <div class="last_part">
             <div class="questions">
-                <h1>Хотите посмотреть?</h1>
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
+                <h1 class="offer">Хотите посмотреть?</h1>
+                <p class="offer_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
             </div>
             <div class="request">
                 <form action="somepage.php" novalidate>
                     <input type="name" class="name" placeholder="Ваше имя">
                     <input type="nummer" class="nummer1" placeholder="Ваш телефон">
-                    <p>*Мы никому не передаем ваши данные. 
-                        И не сохраняем ваш номер в базу.</p>
-                    <button>
-                        Посмотреть район
-                    </button>
+                    <div class="verify">
+                        <div class="save">*Мы никому не передаем ваши данные. 
+                        И не сохраняем ваш номер в базу.
+                        </div>
+                        <button>
+                            Посмотреть район
+                        </button>
+                    </div>
                 </form>
             </div>
-        </section>
+        </div>
     </main>
-        <footer>
-                <div class="logo2">
-                    <img src="/img/first-screen__logo.png" alt="logo">
-                </div>
-                <nav class="footer_menu1">
+    <footer>
+            <div class="logo2">
+                <img src="/img/first-screen__logo.png" alt="logo">
+            </div>
+            <div class="footer_menu1">
+                <nav>
                     <ul>
                         <li>О комплексе</li>
                         <li>Район</li>
@@ -111,7 +119,9 @@
                         <li>Контакты</li>
                     </ul>
                 </nav>
-                <nav class="footer_menu2">
+            </div>
+            <div class="footer_menu2">
+                <nav>
                     <ul>
                         <li>О комплексе</li>
                         <li>Район</li>
@@ -120,23 +130,26 @@
                         <li>Контакты</li>
                     </ul>
                 </nav>
-                <div class="footer_menu3">
+            </div>
+            <div class="footer_menu3">
+                <div class="menu3">
                     <nav>
                         <ul>
                             <li>Адрес: Наб. реки Фонтанки 10-15</li>
                             <li>Телефон: 8 (812) 123-45-67</li>
                             <li>Отдел продаж: 10:00 - 20:00</li>
-                            <li>E-mail: <span>vip@housevip.ru
+                            <li>E-mail: <span class="email">vip@housevip.ru
                             </span></li>
                         </ul>
                     </nav>
+                </div>
                     <div class="icons">
-                        <img src="/img/Vector (2).png" alt="youtube">
-                        <img src="/img/Group.png" alt="VK">
-                        <img src="/img/facebook-logo.png" alt="facebook">
-                        <img src="/img/instagram.png" alt="instagram2">
+                        <img src="/img/Vector (2).png" alt="youtube" class="icon">
+                        <img src="/img/Group.png" alt="VK" class="icon">
+                        <img src="/img/facebook-logo.png" alt="facebook" class="icon">
+                        <img src="/img/instagram.png" alt="instagram2" class="icon">
                     </div>
                 </div>
-        </footer>
+    </footer>
 </body>
 </html>

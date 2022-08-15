@@ -7,15 +7,18 @@ html{
   }
 body{
     width:1920px;
+    height:2898px;
     color:#FFFFFF;
     font-family:"Raleway" sans-serif;
     font-style: normal;
 }
-.header{
+header{
     background-image:url(/img/Rectangle.png);
     background-size:cover;
     margin:0 auto;
     height:840px;
+    display:flex;
+    flex-direction: column;
 }
 .logo{
     padding-left: 405px;
@@ -49,10 +52,12 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center; 
-    justify-content:center;  
+    justify-content:center; 
+    padding-top:230px; 
 }
 .mouse{
     width:40px;
+    padding-top:50px;
 }
 .title{
     font-family: 'Playfair Display';
@@ -64,7 +69,8 @@ body{
 .header_foot{
     display: flex;
     align-items:flex-end;
-    justify-content:space-around;  
+    justify-content:space-around;
+    padding-top:200px;  
 }
 .place{
     display:flex;
@@ -80,22 +86,162 @@ body{
 }
 main{
     background-color:#242B33;
+    height:1783px;
 }
 .testimonials{
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    justify-content:center;
+    height:419px;
     align-items:center;
+
 }
 .text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 205px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 27px;
-    text-align: center;
     padding-top: 20px;
+    text-align: center; 
+
 }
-.image1{
-    width: 150px;
+.second_part{
+    display: grid;
+    justify-items: center;  
 }
+.title2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    padding-bottom:80px;
+    margin-right: 820px;
+}
+.grid_image{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr);
+    gap:30px; 
+}
+.floor{
+    width:535px;
+    height: 320px;
+    font-weight:400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+}
+.loft_name1{
+    background-image:url(/img/Rectangle\ \(1\).png);
+    background-size:cover; 
+
+}
+.loft_name2{
+   background-image:url(/img/Rectangle\ \(2\).png);
+   background-size:cover;
+}
+.loft_name3{
+    background-image:url(/img/Rectangle\ \(1\).png);
+    background-size:cover;  
+}
+.loft_name4{
+    background-image:url(/img/Rectangle\ \(2\).png);
+    background-size:cover;
+}
+.last_part{
+    background-image:url(/img/Rectangle22.png);
+    background-size:cover;
+    margin:0 auto;
+    height:560px;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.offer{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;   
+}
+.offer_text{
+    width:506px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top:50px;
+}
+.request{
+    padding-top:120px ;
+    padding-left:30px;
+}
+input{
+    width:175px;
+    height:50px;
+    background-color:#FFFFFF;
+    opacity: 0.3;
+    padding-left:80px; 
+    margin-left:20px;
+     
+}
+::placeholder{
+    color:#BEBEBE;
+    width:66px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+}
+.save{
+    width:255px;
+    padding-top:20px;
+    padding-left:20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center; 
+}
+button{
+  margin-top:20px;
+  margin-left:32px;
+  width:255px; 
+  height:50px;
+  background-color:#D4C17F;
+  color:#FFFFFF;
+}
+.verify{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+  height:288px;
+  background-color:#2D343C;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    padding-top:15px;
+}
+.icon{
+  padding:20px 10px;  
+}
+.email{
+    color:#D4C17F;
+}
+
 
 
 
