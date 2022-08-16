@@ -89,23 +89,26 @@ main{
     height:1783px;
 }
 .testimonials{
-    display:flex;
-    justify-content:center;
-    height:419px;
-    align-items:center;
-
+   display: flex;
+   justify-content:center;
+   height:419px;
+   align-items:center;
 }
-.text{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.fig{
+    text-align: center;
+}
+figcaption{
+    display: flex;
     width: 205px;
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
-    padding-top: 20px;
-    text-align: center; 
-
+    padding: 20px;
+    text-align: center;
+}
+figcaption:last-child{
+    margin:0;
+    width:150px;
 }
 .second_part{
     display: grid;
@@ -240,6 +243,9 @@ li{
 }
 .email{
     color:#D4C17F;
+}
+@media screen {
+    
 }
 
 
