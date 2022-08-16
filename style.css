@@ -6,11 +6,12 @@ html{
     box-sizing: border-box;
   }
 body{
-    width:1920px;
+    max-width:1920px;
     height:2898px;
     color:#FFFFFF;
     font-family:"Raleway" sans-serif;
     font-style: normal;
+    margin:0 auto;
 }
 header{
     background-image:url(/img/Rectangle.png);
@@ -38,7 +39,7 @@ header{
     padding-right:205px;
 }
 .header_link{
-    font-size:14px;
+    font-size:16px;
     line-height:16px;
     color:white;
     text-decoration: none;
@@ -69,20 +70,26 @@ header{
 .header_foot{
     display: flex;
     align-items:flex-end;
-    justify-content:space-around;
+    justify-content:space-evenly;
     padding-top:200px;  
 }
 .place{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width:230px;
     height:21px; 
 }
 .phone{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 180px;
     height: 21px;
+}
+.address .nummer{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
 }
 main{
     background-color:#242B33;
@@ -176,7 +183,7 @@ figcaption:last-child{
 .offer_text{
     width:506px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     padding-top:50px;
 }
@@ -205,7 +212,7 @@ input{
     padding-top:20px;
     padding-left:20px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 16px;
     text-align: center; 
 }
@@ -233,7 +240,7 @@ ul{
 }
 li{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.05em;
     padding-top:15px;
@@ -243,9 +250,6 @@ li{
 }
 .email{
     color:#D4C17F;
-}
-@media screen {
-    
 }
 
 
